@@ -1,15 +1,15 @@
-const popUpDiv = document.querySelector('.pop-up-div');
-const popUpClose = document.querySelector('.pop-up-close');
-const popUpContainer = document.querySelector('.pop-up-container');
-const button1 = document.querySelector('.button1');
-const button2 = document.querySelector('.button2');
-const button3 = document.querySelector('.button3');
-const button4 = document.querySelector('.button4');
-const button5 = document.querySelector('.button5');
+const popUpDiv = document.querySelector(".pop-up-div");
+const popUpClose = document.querySelector(".pop-up-close");
+const popUpContainer = document.querySelector(".pop-up-container");
+const button1 = document.querySelector(".button1");
+const button2 = document.querySelector(".button2");
+const button3 = document.querySelector(".button3");
+const button4 = document.querySelector(".button4");
+const button5 = document.querySelector(".button5");
 
-button1.addEventListener('click', () => {
-	popUpDiv.style.display = 'block';
-	popUpContainer.innerHTML = `
+button1.addEventListener("click", () => {
+    popUpDiv.style.display = "block";
+    popUpContainer.innerHTML = `
     <div class="pop-up-card">
     <h1 class="heading-pop-up">TECHQUIZ</h1>
         <span class="pop-up-close" onClick="closeTag()">&times;</span>
@@ -43,9 +43,9 @@ button1.addEventListener('click', () => {
     `;
 });
 
-button2.addEventListener('click', () => {
-	popUpDiv.style.display = 'block';
-	popUpContainer.innerHTML = `
+button2.addEventListener("click", () => {
+    popUpDiv.style.display = "block";
+    popUpContainer.innerHTML = `
     <div class="pop-up-card">
     <h1 class="heading-pop-up">PAPER PRESENTATION</h1>
         <span class="pop-up-close" onClick="closeTag()">&times;</span>
@@ -73,9 +73,9 @@ button2.addEventListener('click', () => {
     `;
 });
 
-button3.addEventListener('click', () => {
-	popUpDiv.style.display = 'block';
-	popUpContainer.innerHTML = `
+button3.addEventListener("click", () => {
+    popUpDiv.style.display = "block";
+    popUpContainer.innerHTML = `
     <div class="pop-up-card">
     <h1 class="heading-pop-up">CAE ANALYSIS</h1>
         <span class="pop-up-close" onClick="closeTag()">&times;</span>
@@ -108,9 +108,9 @@ button3.addEventListener('click', () => {
     `;
 });
 
-button4.addEventListener('click', () => {
-	popUpDiv.style.display = 'block';
-	popUpContainer.innerHTML = `
+button4.addEventListener("click", () => {
+    popUpDiv.style.display = "block";
+    popUpContainer.innerHTML = `
     <div class="pop-up-card">
     <h1 class="heading-pop-up">CAD MODELLING</h1>
         <span class="pop-up-close" onClick="closeTag()">&times;</span>
@@ -119,40 +119,40 @@ button4.addEventListener('click', () => {
         <div class="pop-up-text">
             <h1>RULES & REGULATIONS</h1>
             <ul>
-<li>
-Only Individual participant is allowed.
-</li>
-<li>
-College ID card or Bonafide certificate is a must.
-</li>
-<li>
-Participants are requested to login their corresponding Google meet link 5 minutes before the event.
-</li>
-<li>
-Participants are requested to join their corresponding WhatsApp group and be active in it for further updates.
-</li>
-<li>
-Participants are requested to present their screen throughout the event.
-</li>
-<li>
-Participants should unmute and Switch On the Camera whenever instructed by the Coordinators
-</li>
-<li>
-Any suspicion of malpractices or misbehavior will be disqualified immediately.
-</li>
-<li>
-Do ensure that the Webcam and Microphone of Laptop / Desktop are working properly during the event.
-</li>
-<li>
-If your device is using a Wi-Fi router, make sure to sit near the Wi-Fi Router/Modem to avoid any signal related issues.
-</li>
-<li>
-In case of disconnection of network/power failure during the event, the event can be resumed by logging again from the instance of interruption. The event Coordinators will not be responsible for the time loss due to any malfunction of your devices Internet connectivity, Power failure etc.
-</li>
-<li>
-Coordinators &nbsp; decision will be final.
-</li>
-</ul>
+                <li>
+                    Only Individual participant is allowed.
+                </li>
+                <li>
+                    College ID card or Bonafide certificate is a must.
+                </li>
+                <li>
+                    Participants are requested to login their corresponding Google meet link 5 minutes before the event.
+                </li>
+                <li>
+                    Participants are requested to join their corresponding WhatsApp group and be active in it for further updates.
+                </li>
+                <li>
+                    Participants are requested to present their screen throughout the event.
+                </li>
+                <li>
+                    Participants should unmute and Switch On the Camera whenever instructed by the Coordinators
+                </li>
+                <li>
+                    Any suspicion of malpractices or misbehavior will be disqualified immediately.
+                </li>
+                <li>
+                    Do ensure that the Webcam and Microphone of Laptop / Desktop are working properly during the event.
+                </li>
+                <li>
+                    If your device is using a Wi-Fi router, make sure to sit near the Wi-Fi Router/Modem to avoid any signal related issues.
+                </li>
+                <li>
+                    In case of disconnection of network/power failure during the event, the event can be resumed by logging again from the instance of interruption. The event Coordinators will not be responsible for the time loss due to any malfunction of your devices Internet connectivity, Power failure etc.
+                </li>
+                <li>
+                    Coordinators &nbsp; decision will be final.
+                </li>
+            </ul>
             <h4>Student coordinator: P M Bupathi Ram : +91 8056048674</h4>
             <button class="button" style="width: 30%;" onclick="closeTag()">Back to events</button>
         </div>
@@ -160,9 +160,9 @@ Coordinators &nbsp; decision will be final.
     `;
 });
 
-button5.addEventListener('click', () => {
-	popUpDiv.style.display = 'block';
-	popUpContainer.innerHTML = `
+button5.addEventListener("click", () => {
+    popUpDiv.style.display = "block";
+    popUpContainer.innerHTML = `
     <div class="pop-up-card">
     <h1 class="heading-pop-up">Diagrammatical Reasoning</h1>
         <span class="pop-up-close" onClick="closeTag()">&times;</span>
@@ -174,16 +174,17 @@ button5.addEventListener('click', () => {
         <div class="pop-up-text">
             <h1>RULES & REGULATIONS</h1>
             <ul>
-                <li>All the questions will be related to engineering field.
-                The event will take place in 3 levels and number of teams will be 
-                filtered depending upon the total number of registrations we get.
-                The level of difficulty will increase in each level.
-                Number of questions, question type and time limit will be announced 
-                during the event.<br>
-                The students must be prepared in all curriculum subjects, their 
-                applications and should possess logical thinking
+                <li>
+                    All the questions will be related to engineering field.
+                    The event will take place in 3 levels and number of teams will be 
+                    filtered depending upon the total number of registrations we get.
+                    The level of difficulty will increase in each level.
+                    Number of questions, question type and time limit will be announced 
+                    during the event.
+                    <br>
+                    The students must be prepared in all curriculum subjects, their 
+                    applications and should possess logical thinking
                 </li>
-                
             </ul>
             <h4>Softwares: NX CAD, NX  CAM, CATIA, Solidworks, Creo</h4>
             <h4>Student coordinator: Sudharashan.  Ph. +91 9962405780</h4>
@@ -194,31 +195,5 @@ button5.addEventListener('click', () => {
 });
 
 function closeTag() {
-	popUpDiv.style.display = 'none';
-	popUpContainer.innerHTML = `
-    <div class="pop-up-card">
-    <h1 class="heading-pop-up">PAPER PRESENTATION</h1>
-        <span class="pop-up-close" onClick="closeTag()">&times;</span>
-        <h1>Description</h1>
-        <p style="width: 75%;">Paper presentation provides a platform for young minds to be the technology changers with their ideas and just let it flow through their words. Paper presentation is where the students can share their knowledge and improvise their communication skills.</p> <br>
-        <div class="pop-up-text">
-            <h1>RULES & REGULATIONS</h1>
-            <ul>
-                <li>The team contains only two members.</li>
-                <li>Team members can be from different colleges.</li>
-                <li>Participants are requested to register in advance.
-                </li>
-                <li>Topics can be from any mechanical domain.</li>
-                <li>Panel decision will be final.</li>
-                <li>Participants are requested to login their corresponding Google meet link, 5 minutes before the event.</li>
-                <li>Participants are requested to join their corresponding WhatsApp/Telegram group.</li>
-                <li>Submit your manuscript through the link below</li>
-                <li>College ID card and Bonafide certificate is mandatory</li>
-                <li>Last date for the submission: MAY 03, 2021 (6:00PM)</li>
-            </ul>
-            <h4>Student coordinator: P M Bupathi Ram : +91 8056048674</h4>
-            <button class="button" style="width: 30%;" onclick="closeTag()">Back to events</button>
-        </div>
-    </div>
-    `;
+    popUpDiv.style.display = "none";
 }
