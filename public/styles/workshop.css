@@ -171,7 +171,8 @@ body {
 .heading-pop-up {
     font-family: "Poppins";
     font-size: 2rem;
-    color: rgba(4, 183, 207, 0.733);
+    color: rgb(4, 183, 207);
+    text-shadow: 0 0 0.5rem rgb(4, 183, 207);
     margin: 2rem 0;
     text-align: center;
 }
