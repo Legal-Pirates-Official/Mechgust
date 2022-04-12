@@ -1,15 +1,15 @@
-const popUpDiv = document.querySelector(".pop-up-div");
-const popUpClose = document.querySelector(".pop-up-close");
-const popUpContainer = document.querySelector(".pop-up-container");
-const button1 = document.querySelector(".button1");
-const button2 = document.querySelector(".button2");
-const button3 = document.querySelector(".button3");
-const button4 = document.querySelector(".button4");
-const button5 = document.querySelector(".button5");
+const popUpDiv = document.querySelector('.pop-up-div');
+const popUpClose = document.querySelector('.pop-up-close');
+const popUpContainer = document.querySelector('.pop-up-container');
+const button1 = document.querySelector('.button1');
+const button2 = document.querySelector('.button2');
+const button3 = document.querySelector('.button3');
+const button4 = document.querySelector('.button4');
+const button5 = document.querySelector('.button5');
 
-button1.addEventListener("click", () => {
-    popUpDiv.style.display = "block";
-    popUpContainer.innerHTML = `
+button1.addEventListener('click', () => {
+	popUpDiv.style.display = 'block';
+	popUpContainer.innerHTML = `
     <div class="pop-up-card">
     <h1 class="heading-pop-up">TECHQUIZ</h1>
         <span class="pop-up-close" onClick="closeTag()">&times;</span>
@@ -43,9 +43,9 @@ button1.addEventListener("click", () => {
     `;
 });
 
-button2.addEventListener("click", () => {
-    popUpDiv.style.display = "block";
-    popUpContainer.innerHTML = `
+button2.addEventListener('click', () => {
+	popUpDiv.style.display = 'block';
+	popUpContainer.innerHTML = `
     <div class="pop-up-card">
     <h1 class="heading-pop-up">PAPER PRESENTATION</h1>
         <span class="pop-up-close" onClick="closeTag()">&times;</span>
@@ -73,9 +73,9 @@ button2.addEventListener("click", () => {
     `;
 });
 
-button3.addEventListener("click", () => {
-    popUpDiv.style.display = "block";
-    popUpContainer.innerHTML = `
+button3.addEventListener('click', () => {
+	popUpDiv.style.display = 'block';
+	popUpContainer.innerHTML = `
     <div class="pop-up-card">
     <h1 class="heading-pop-up">CAE ANALYSIS</h1>
         <span class="pop-up-close" onClick="closeTag()">&times;</span>
@@ -108,9 +108,9 @@ button3.addEventListener("click", () => {
     `;
 });
 
-button4.addEventListener("click", () => {
-    popUpDiv.style.display = "block";
-    popUpContainer.innerHTML = `
+button4.addEventListener('click', () => {
+	popUpDiv.style.display = 'block';
+	popUpContainer.innerHTML = `
     <div class="pop-up-card">
     <h1 class="heading-pop-up">CAD MODELLING</h1>
         <span class="pop-up-close" onClick="closeTag()">&times;</span>
@@ -160,9 +160,9 @@ button4.addEventListener("click", () => {
     `;
 });
 
-button5.addEventListener("click", () => {
-    popUpDiv.style.display = "block";
-    popUpContainer.innerHTML = `
+button5.addEventListener('click', () => {
+	popUpDiv.style.display = 'block';
+	popUpContainer.innerHTML = `
     <div class="pop-up-card">
     <h1 class="heading-pop-up">Diagrammatical Reasoning</h1>
         <span class="pop-up-close" onClick="closeTag()">&times;</span>
@@ -195,5 +195,17 @@ button5.addEventListener("click", () => {
 });
 
 function closeTag() {
-    popUpDiv.style.display = "none";
+	popUpDiv.style.display = 'none';
 }
+const video = document.querySelector('.section-container video source');
+
+const setHeroVideoSize = () => {
+	if (innerWidth <= 800) {
+		video.setAttribute('src', '../assets/hero-1.mp4');
+	} else {
+		video.setAttribute('src', '../assets/hero.mp4');
+	}
+};
+
+window.addEventListener('resize', setHeroVideoSize);
+window.addEventListener('load', setHeroVideoSize);

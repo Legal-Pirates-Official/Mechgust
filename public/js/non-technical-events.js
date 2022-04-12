@@ -138,3 +138,16 @@ function closeTag() {
     </div>
     `;
 }
+
+const video = document.querySelector('.section-container video source');
+
+const setHeroVideoSize = () => {
+	if (innerWidth <= 800) {
+		video.setAttribute('src', '../assets/hero-1.mp4');
+	} else {
+		video.setAttribute('src', '../assets/hero.mp4');
+	}
+};
+
+window.addEventListener('resize', setHeroVideoSize);
+window.addEventListener('load', setHeroVideoSize);
