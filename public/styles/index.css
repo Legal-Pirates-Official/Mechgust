@@ -7,6 +7,7 @@
 body {
 	background-color: black;
 	color: var(--font-color);
+	font-family: "Poppins";
 }
 
 /* Hero Section */
@@ -114,66 +115,3 @@ main p {
 	line-height: 1.7rem;
 }
 
-<<<<<<< HEAD
-.footer-div {
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	padding: 2rem;
-	background: #1e1e1e;
-}
-
-.socials {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 1rem;
-	width: 50%;
-	/* background: #1e1; */
-}
-
-.socials a {
-	position: relative;
-	width: 2rem;
-	height: 2rem;
-	background: #fff;
-	border-radius: 50%;
-	margin: 1%;
-	padding: 1%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.socials img {
-	position: absolute;
-	width: 1.5rem;
-	height: 1.5rem;
-}
-
-@media (max-width: 500px) {
-	.hero-main-div h3 {
-		font-size: 1.2rem;
-		max-width: fit-content;
-	}
-
-	.each-hc-label {
-		font-size: 1.2rem;
-	}
-
-	.each-hc-container {
-		margin: 0.5rem;
-	}
-
-	.hero-main-div img {
-		width: 100%;
-	}
-
-	main {
-		padding: 3rem;
-	}
-}
-=======
->>>>>>> 8457f141afa4ff9c2f46134d6ff30fc58a8ae082

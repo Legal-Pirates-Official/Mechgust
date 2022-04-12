@@ -7,6 +7,7 @@
 body {
     background-color: rgb(25, 42, 51);
     color: var(--font-color);
+    font-family: "Poppins";
 }
 
 .main-section-div {
@@ -19,10 +20,10 @@ body {
     position: relative;
     padding: 1rem 0 3rem 0;
     color: white;
+    text-align: justify;
 }
 
-.main-section
-{
+.main-section {
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -34,8 +35,7 @@ body {
     color: white;
 }
 
-.main-div h1
-{
+.main-div h1 {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1rem;

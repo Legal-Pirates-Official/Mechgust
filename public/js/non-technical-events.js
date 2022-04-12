@@ -23,7 +23,7 @@ button1.addEventListener('click', () => {
                 <li>Three teams will be playing in one of the three basic rounds.</li>
             </ul>
             <h4>Student coordinator: Saran.C Ph. +91 8925236404</h4>
-            <button class="button" style="width: 30%;" onclick="closeTag()">Back to events</button>
+            <button class="button btn" style="width: 65%;" onclick="closeTag()">Back to events</button>
         </div>
     </div>
     `;
@@ -47,7 +47,7 @@ button2.addEventListener('click', () => {
                 <li>Panel decision will be final.</li>
             </ul>
             <h4>Student coordinator: Bala Sai Chandra Ph. +91 8531856142</h4>
-            <button class="button" style="width: 30%;" onclick="closeTag()">Back to events</button>
+            <button class="button btn" style="width: 65%;" onclick="closeTag()">Back to events</button>
         </div>
     </div>
     `;
@@ -63,7 +63,7 @@ button3.addEventListener('click', () => {
         <p style="width: 75%;">Ssssshhh….. It’s a Surprise.</p> <br>
         <div class="pop-up-text">
             <h4>Student coordinator: Saranya S Ph. +91 9952057980</h4>
-            <button class="button" style="width: 30%;" onclick="closeTag()">Back to events</button>
+            <button class="button btn" style="width: 65%;" onclick="closeTag()">Back to events</button>
         </div>
     </div>
     `;
@@ -81,7 +81,7 @@ button4.addEventListener('click', () => {
         </p> <br>
         <div class="pop-up-text">
             <h4>Student coordinator: Abhishek  Ph. +91 6374075860</h4>
-            <button class="button" style="width: 30%;" onclick="closeTag()">Back to events</button>
+            <button class="button btn" style="width: 65%;" onclick="closeTag()">Back to events</button>
         </div>
     </div>
     `;
@@ -103,7 +103,7 @@ button5.addEventListener('click', () => {
                 <li>So just get your mic on and be ready to mesmerise your audience.</li>
             </ul>
             <h4>Student coordinator: Sai vaishnav Ph. +91 7338740404</h4>
-            <button class="button" style="width: 30%;" onclick="closeTag()">Back to events</button>
+            <button class="button btn" style="width: 65%;" onclick="closeTag()">Back to events</button>
         </div>
     </div>
     `;
@@ -133,7 +133,7 @@ function closeTag() {
                 <li>Last date for the submission: MAY 03, 2021 (6:00PM)</li>
             </ul>
             <h4>Student coordinator: P M Bupathi Ram : +91 8056048674</h4>
-            <button class="button" style="width: 30%;" onclick="closeTag()">Back to events</button>
+            <button class="button btn" style="width: 65%;" onclick="closeTag()">Back to events</button>
         </div>
     </div>
     `;

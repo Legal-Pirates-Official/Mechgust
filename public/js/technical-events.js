@@ -37,7 +37,7 @@ button1.addEventListener('click', () => {
                 <li>Round 2: Technical Topic</li>
             </ul>
             <h4>Student coordinator: Gokul N Ph. +91 8754411553</h4>
-            <button class="button" style="width: 30%;" onclick="closeTag()">Back to events</button>
+            <button class="button btn" style="width: 65%;" onclick="closeTag()">Back to events</button>
         </div>
     </div>
     `;
@@ -67,7 +67,7 @@ button2.addEventListener('click', () => {
                 <li>Last date for the submission: MAY 03, 2021 (6:00PM)</li>
             </ul>
             <h4>Student coordinator: P M Bupathi Ram : +91 8056048674</h4>
-            <button class="button" style="width: 30%;" onclick="closeTag()">Back to events</button>
+            <button class="button btn" style="width: 65%;" onclick="closeTag()">Back to events</button>
         </div>
     </div>
     `;
@@ -102,7 +102,7 @@ button3.addEventListener('click', () => {
             </ul>
             <h4>Softwares: Ansys, Abaqus,NX NASTRAN etc.</h4>
             <h4>Softwares: Ansys, Abaqus,NX NASTRAN etc.</h4>
-            <button class="button" style="width: 30%;" onclick="closeTag()">Back to events</button>
+            <button class="button btn" style="width: 65%;" onclick="closeTag()">Back to events</button>
         </div>
     </div>
     `;
@@ -154,7 +154,7 @@ button4.addEventListener('click', () => {
                 </li>
             </ul>
             <h4>Student coordinator: P M Bupathi Ram : +91 8056048674</h4>
-            <button class="button" style="width: 30%;" onclick="closeTag()">Back to events</button>
+            <button class="button btn" style="width: 65%;" onclick="closeTag()">Back to events</button>
         </div>
     </div>
     `;
@@ -188,7 +188,7 @@ button5.addEventListener('click', () => {
             </ul>
             <h4>Softwares: NX CAD, NX  CAM, CATIA, Solidworks, Creo</h4>
             <h4>Student coordinator: Sudharashan.  Ph. +91 9962405780</h4>
-            <button class="button" style="width: 30%;" onclick="closeTag()">Back to events</button>
+            <button class="button btn" style="width: 65%;" onclick="closeTag()">Back to events</button>
         </div>
     </div>
     `;

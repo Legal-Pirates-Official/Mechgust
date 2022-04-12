@@ -23,13 +23,13 @@ body {
 }
 
 .section-container video {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	top: 0;
-	left: 0;
-	z-index: -1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 .headingTag {
@@ -147,8 +147,7 @@ body {
     transition: all 0.5s ease-in-out;
 }
 
-.pop-up-card
-{
+.pop-up-card {
     width: 100%;
     height: 100%;
     display: flex;
@@ -158,12 +157,10 @@ body {
     justify-content: start;
 }
 
-.pop-up-card::-webkit-scrollbar
-{
+.pop-up-card::-webkit-scrollbar {
     width: 0px;
     background: transparent;
 }
-
 
 .pop-up-text {
     position: relative;
@@ -174,9 +171,7 @@ body {
     text-align: left;
 }
 
-
-.heading-pop-up
-{
+.heading-pop-up {
     font-family: "Poppins";
     font-size: 2rem;
     color: rgb(4, 183, 207);
@@ -185,8 +180,7 @@ body {
     text-align: center;
 }
 
-.pop-up-close
-{
+.pop-up-close {
     position: absolute;
     right: 5%;
     top: 5%;
@@ -201,7 +195,23 @@ body {
     align-items: center;
     justify-content: center;
     z-index: 1000;
+}
 
+@media (max-width: 400px) {
+    .headingTag {
+        font-size: 2rem;
+        width: 75%;
+    }
+    .btn {
+        width: 70%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .heading-pop-up {
+        width: 75%;
+        text-align: center;
+    }
 }
 
 /* home */
