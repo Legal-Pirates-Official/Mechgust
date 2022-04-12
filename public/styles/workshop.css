@@ -163,6 +163,7 @@ body {
 }
 
 .pop-up-text {
+<<<<<<< HEAD
 	position: relative;
 	font-family: 'Poppins';
 	color: white;
@@ -176,6 +177,23 @@ body {
 	color: rgba(4, 183, 207, 0.733);
 	margin: 2rem 0;
 	text-align: center;
+=======
+    position: relative;
+    font-family: "Poppins";
+    color: white;
+    margin: 2rem 0;
+    width: 75%;
+    text-align: left;
+}
+
+.heading-pop-up {
+    font-family: "Poppins";
+    font-size: 2rem;
+    color: rgb(4, 183, 207);
+    text-shadow: 0 0 0.5rem rgb(4, 183, 207);
+    margin: 2rem 0;
+    text-align: center;
+>>>>>>> 8457f141afa4ff9c2f46134d6ff30fc58a8ae082
 }
 
 .pop-up-close {

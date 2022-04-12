@@ -1,20 +1,19 @@
-const popUpDiv = document.querySelector('.pop-up-div');
-const popUpClose = document.querySelector('.pop-up-close');
-const popUpContainer = document.querySelector('.pop-up-container');
-const button1 = document.querySelector('.button1');
-const button2 = document.querySelector('.button2');
-const button3 = document.querySelector('.button3');
-const button4 = document.querySelector('.button4');
-const button5 = document.querySelector('.button5');
+const popUpDiv = document.querySelector(".pop-up-div");
+const popUpClose = document.querySelector(".pop-up-close");
+const popUpContainer = document.querySelector(".pop-up-container");
+const button1 = document.querySelector(".button1");
+const button2 = document.querySelector(".button2");
+const button3 = document.querySelector(".button3");
+const button4 = document.querySelector(".button4");
+const button5 = document.querySelector(".button5");
 
-button1.addEventListener('click', () => {
-	popUpDiv.style.display = 'block';
-	popUpContainer.innerHTML = `
+button1.addEventListener("click", () => {
+    popUpDiv.style.display = "block";
+    popUpContainer.innerHTML = `
     <div class="pop-up-card">
     <h1 class="heading-pop-up">3D PRINTING</h1>
         <span class="pop-up-close" onClick="closeTag()">&times;</span>
         <h1>Description</h1>
-       
         <div class="pop-up-text">
             <ul>
                 <li>This workshop offers a holistic learning on the functions and the working of a 3D printer.</li>
@@ -30,9 +29,9 @@ button1.addEventListener('click', () => {
     `;
 });
 
-button2.addEventListener('click', () => {
-	popUpDiv.style.display = 'block';
-	popUpContainer.innerHTML = `
+button2.addEventListener("click", () => {
+    popUpDiv.style.display = "block";
+    popUpContainer.innerHTML = `
     <div class="pop-up-card">
     <h1 class="heading-pop-up">VEHICLE BUILDING</h1>
         <span class="pop-up-close" onClick="closeTag()">&times;</span>
@@ -51,9 +50,9 @@ button2.addEventListener('click', () => {
     `;
 });
 
-button3.addEventListener('click', () => {
-	popUpDiv.style.display = 'block';
-	popUpContainer.innerHTML = `
+button3.addEventListener("click", () => {
+    popUpDiv.style.display = "block";
+    popUpContainer.innerHTML = `
     <div class="pop-up-card">
     <h1 class="heading-pop-up">ROBOTICS</h1>
         <span class="pop-up-close" onClick="closeTag()">&times;</span>
@@ -73,9 +72,9 @@ button3.addEventListener('click', () => {
     `;
 });
 
-button4.addEventListener('click', () => {
-	popUpDiv.style.display = 'block';
-	popUpContainer.innerHTML = `
+button4.addEventListener("click", () => {
+    popUpDiv.style.display = "block";
+    popUpContainer.innerHTML = `
     <div class="pop-up-card">
     <h1 class="heading-pop-up">CNC</h1>
         <span class="pop-up-close" onClick="closeTag()">&times;</span>
@@ -95,8 +94,8 @@ button4.addEventListener('click', () => {
 });
 
 function closeTag() {
-	popUpDiv.style.display = 'none';
-	popUpContainer.innerHTML = `
+    popUpDiv.style.display = "none";
+    popUpContainer.innerHTML = `
     <div class="pop-up-card">
     <h1 class="heading-pop-up">PAPER PRESENTATION</h1>
         <span class="pop-up-close" onClick="closeTag()">&times;</span>

@@ -1,0 +1,39 @@
+/* footer */
+
+.footer-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    background: #1e1e1e;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    width: 50%;
+    /* background: #1e1; */
+}
+
+.socials a {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    background: #fff;
+    border-radius: 50%;
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials img {
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+}
