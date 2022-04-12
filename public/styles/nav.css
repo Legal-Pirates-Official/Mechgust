@@ -18,6 +18,7 @@ body.no-scroll {
     padding: 1rem;
     color: white;
     position: relative;
+    font-family: "Poppins";
     z-index: 5000;
 }
 
